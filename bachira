@@ -19,7 +19,7 @@ local replacements = {
     {
         oldAnimId = "rbxassetid://71640109646843",
         newAnimId = "rbxassetid://96372880288738",
-        soundId = "rbxassetid://75415153079404",
+        soundId = "rbxassetid://9073656212",
         lastPlayed = 0,
         moveForward = true,
         canPlay = true
@@ -33,7 +33,7 @@ local replacements = {
         canTeleport = true
     },
     {
-        oldAnimId = "rbxassetid://73786427576386",
+        oldAnimId = "rbxassetid://105883770804646",
         newAnimId = "rbxassetid://105883770804646",
         soundId = "rbxassetid://80169619771654",
         lastPlayed = 0,
