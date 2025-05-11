@@ -33,7 +33,7 @@ local replacements = {
         canTeleport = true
     },
     {
-        oldAnimId = "rbxassetid://73786427576386",
+        oldAnimId = "rbxassetid://96220511460952",
         newAnimId = "rbxassetid://96220511460952",
         soundId = "rbxassetid://125906215069324",
         lastPlayed = 0,
