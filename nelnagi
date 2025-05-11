@@ -34,7 +34,7 @@ local replacements = {
     },
     {
         oldAnimId = "rbxassetid://73786427576386",
-        newAnimId = "rbxassetid://90781949061659",
+        newAnimId = "rbxassetid://96220511460952",
         soundId = "rbxassetid://125906215069324",
         lastPlayed = 0,
         moveForward = false,
@@ -153,23 +153,23 @@ local function modifyGUI()
     local skill1Button = innerHotbar:WaitForChild("skill1")
     local baseButton = skill1Button:WaitForChild("Base")
     local toolname = baseButton:WaitForChild("ToolName")
-    toolname.Text = "Shortcut"
+    toolname.Text = "Genius pace"
 
     local skill2Button = innerHotbar:WaitForChild("skill2")
     local baseButton2 = skill2Button:WaitForChild("Base")
     local toolname2 = baseButton2:WaitForChild("ToolName")
-    toolname2.Text = "TP"
+    toolname2.Text = "Genius Controll"
 
     local skill3Button = innerHotbar:WaitForChild("skill3")
     local baseButton3 = skill3Button:WaitForChild("Base")
     local toolname3 = baseButton3:WaitForChild("ToolName")
-    toolname3.Text = "EXE Strike"
+    toolname3.Text = "Revoler Volley Shot"
 
     local skill4Button = innerHotbar:FindFirstChild("skill4")
     if skill4Button then
         local baseButton4 = skill4Button:WaitForChild("Base")
         local toolname4 = baseButton4:WaitForChild("ToolName")
-        toolname4.Text = "New Skill"
+        toolname4.Text = "ULT"
     end
 end
 
@@ -182,7 +182,7 @@ player.PlayerGui.ChildAdded:Connect(function(child)
 end)
 
 StarterGui:SetCore("SendNotification", {
-    Title = "Loaded!";
-    Text = "Made By ZRVVZ";
+    Title = "Loaded NEL NAGI";
+    Text = "Made By Minton";
     Duration = 5;
 })
