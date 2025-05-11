@@ -43,8 +43,8 @@ local replacements = {
         soundSpeed = 1      
     },
     {
-        oldAnimId = "rbxassetid://12345678901234", 
-        newAnimId = "rbxassetid://56789012345678", 
+        oldAnimId = "rbxassetid://82929375261557", 
+        newAnimId = "rbxassetid://99974155373028", 
         soundId = "rbxassetid://87654321098765",   
         lastPlayed = 0,
         moveForward = false,
