@@ -33,9 +33,9 @@ local replacements = {
         canTeleport = true
     },
     {
-        oldAnimId = "rbxassetid://105883770804646",
-        newAnimId = "rbxassetid://105883770804646",
-        soundId = "rbxassetid://80169619771654",
+        oldAnimId = "rbxassetid://73786427576386",
+        newAnimId = "rbxassetid://90781949061659",
+        soundId = "rbxassetid://125906215069324",
         lastPlayed = 0,
         moveForward = false,
         canPlay = true,
