@@ -181,10 +181,9 @@ local function modifyGUI()
     local toolname3 = baseButton3:WaitForChild("ToolName")
     toolname3.Text = "Rabona"
  
-    local skill4Button = innerHotbar:WaitForChild("skill4")
-    local baseButton4 = skill3Button:WaitForChild("Base")
-    local toolname4 = baseButton3:WaitForChild("ToolName")
-    toolname4.Text = "Bee shot"
+    local skill4Button = innerHotbar:FindFirstChild("skill4")
+    if skill4Button then
+        skill4Button:Destroy()
     end
 end
  
